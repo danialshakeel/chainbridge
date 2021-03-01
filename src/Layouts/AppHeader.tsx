@@ -67,9 +67,12 @@ const AppHeader: React.FC<IAppHeader> = () => {
       <div className={classes.left}>
         {/* ADD LOGO HERE */}
         {/* <div className={classes.logo}>
-        
+
         </div> */}
-        <Typography variant="h4">ChainBridge Token Swap</Typography>
+        <img
+          style={{height:"50px"}}
+          src="https://res.cloudinary.com/sndtech/image/upload/v1614619881/dendrite-logo-over-black-hor_l9ufaa.png"
+        />
       </div>
       <section className={classes.state}>
         {!isReady ? (

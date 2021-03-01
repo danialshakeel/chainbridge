@@ -72,7 +72,12 @@ input::-webkit-inner-spin-button {
 }
 
 .makeStyles-root-27 .makeStyles-root-47.medium.makeStyles-maxButton-38 {
-  border-radius: 0 24px 24px 0;
+  /* border-radius: 0 24px 24px 0; */
+  border-radius: 0 24px 24px 0 !important;
+
+}
+.makeStyles-root-47.medium .makeStyles-maxButton-154{
+  border-radius: 0 24px 24px 0 !important;
 }
 
 .makeStyles-content-4 .makeStyles-navTabs-6 > a {
