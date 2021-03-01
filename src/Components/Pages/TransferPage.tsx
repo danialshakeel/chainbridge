@@ -25,7 +25,6 @@ import FeesFormikWrapped from "./FormikContextElements/Fees";
 
 const useStyles = makeStyles(({ constants, palette }: ITheme) =>
   createStyles({
-
     root: {
       padding: constants.generalUnit * 6,
       position: "relative",
@@ -38,10 +37,10 @@ const useStyles = makeStyles(({ constants, palette }: ITheme) =>
       width: "100%",
     },
     connectButton: {
-      backgroundColor:"#28344f",
+      backgroundColor: "#28344f",
       margin: `${constants.generalUnit * 3}px 0 ${constants.generalUnit * 6}px`,
-      height:"50px",
-      borderRadius:"20px 20px 20px 20px"
+      height: "50px",
+      borderRadius: "20px 20px 20px 20px",
     },
     connecting: {
       textAlign: "center",
@@ -97,6 +96,7 @@ const useStyles = makeStyles(({ constants, palette }: ITheme) =>
           borderBottomRightRadius: 0,
           borderTopRightRadius: 0,
           borderRight: 0,
+          borderRadius: "0 22px 22px 0 !important",
         },
       },
       "& span:last-child.error": {
@@ -135,7 +135,6 @@ const useStyles = makeStyles(({ constants, palette }: ITheme) =>
     },
     addressInput: {},
     generalInput: {
-
       "& > span": {
         marginBottom: constants.generalUnit,
       },
